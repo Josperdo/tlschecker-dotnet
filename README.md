@@ -10,4 +10,4 @@ Small CLI that checks sites for:
 ## Quickstart
 ```powershell
 dotnet build
-dotnet run --project src/TlsCheck -- --in targets.txt --out examples/sample.jsonl --fail-if-expiring 30
+dotnet run --project src/TlsCheck -- --in targets.txt --out examples/sample.jsonl --fail-if-expiring 30 
