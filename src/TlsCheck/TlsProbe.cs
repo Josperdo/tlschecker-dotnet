@@ -10,7 +10,7 @@ public static class HttpProbe
     {
         var handler = new SocketHttpHandler
         {
-            AllowAutoRedirect = false;
+            AllowAutoRedirect = false,
             AutomaticDecompression = DecompressionMethods.None,
             ConnectTimeout = TimeSpan.FromMilliseconds(timeouMs)
         };
@@ -24,7 +24,11 @@ public static class HttpProbe
         // 1) Check if http:// redirects to https://
         try
         {
-            
+
+        }
+        catch
+        {
+            httpsReachable = false;
         }
         
     }
