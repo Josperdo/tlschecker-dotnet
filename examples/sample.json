@@ -1,0 +1,13 @@
+{
+    "TsUtc":"2025-08-14T03:50:00Z",
+    "Target":"example.com",
+    "Host":"example.com",
+    "HttpRedirectsToHttps":true,
+    "HttpsReachable":true,
+    "HttpStatus":200,
+    "HstsPresent":false,
+    "TlsProtocol":"Tls13",
+    "CertIssuer":"CN=...",
+    "CertNotAfterUtc":"2026-07-01T12:00:00Z",
+    "CertDaysRemaining":321
+}
